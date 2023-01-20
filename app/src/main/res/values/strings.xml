@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cth_nama">Nurul afifah</string>
+    <string name="cth_email">Nurul@gmail.com</string>
+    <string name="cth_nohp">081378592167</string>
+    <string name="cth_konsul">mau konsul ini ni</string>
+    <string name="halaman_list">Halaman List</string>
+    <string name="example_underline"><u>Forgot password?</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="judul">Detail Dokter</string>
+    <string name="nama">Nama Dokter</string>
+    <string name="contoh_nama">Dr. Nadya Widjaja</string>
+    <string name="spesialis">Dokter Spesialis</string>
+    <string name="profil_dokter">Profile Dokter</string>
+    <string name="keterangan1">Dr. Nadya Widjaja merupakan seorang dokter spesialis anak yang berpraktik di Rs Syafira Pekanbaru.Beliau dapat membantu layanan Konsultasi kesehatan anak</string>
+    <string name="keterangan2">Beliau juga merupakan anggota dari Ikatan Dokter Indonesia (IDI).Dokter ini terkenal dengan sikap ramah dan humoris pada pasien. Dokter ini juga sudah menjadi langganan di kalangan para artis, salah satunya adalah Citra Kirana</string>
+    <string name="pengalaman_praktik">Pengalaman Praktik</string>
+    <string name="keterangan_pengalaman">- Dokter Spesialis Anak - Rs Syafira Pekanbaru</string>
+
+    <string name="judul_utama">Spesial</string>
+</resources>

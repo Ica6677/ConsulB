@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#439A97"
+    tools:context="vPagerFragment.screens.OnBoarding3">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:padding="40dp"
+        android:text="Consul B"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="350dp"
+        android:layout_height="380dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="110dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/image3" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/img_2"
+        android:fontFamily="sans-serif"
+        android:text="let's make your"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/text7"
+        android:fontFamily="sans-serif"
+        android:text="appointment at"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/text8"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="535dp"
+        android:fontFamily="sans-serif"
+        android:text="Consul B"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22dp"/>
+
+
+    <ImageView
+        android:id="@+id/slide2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/text9"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931"
+        app:srcCompat="@drawable/slide3" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slide2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:width="310dp"
+        android:background="@drawable/btn_shape"
+        android:text="Next"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
